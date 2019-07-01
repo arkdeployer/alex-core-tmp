@@ -1,18 +1,18 @@
 {
-    "name": "testnet",
-    "messagePrefix": "TEST message:\n",
-    "bip32": {
-        "public": 70617039,
-        "private": 70615956
-    },
-    "pubKeyHash": 23,
-    "nethash": "d9acd04bde4234a81addb8482333b4ac906bed7be5a9970ce8ada428bd083192",
-    "wif": 186,
-    "slip44": 1,
-    "aip20": 0,
-    "client": {
-        "token": "TARK",
-        "symbol": "TѦ",
-        "explorer": "http://texplorer.ark.io"
-    }
+  "name": "testnet",
+  "messagePrefix": "TACO message:\n",
+  "bip32": {
+    "public": 70617039,
+    "private": 70615956
+  },
+  "pubKeyHash": 63,
+  "nethash": "94362042c2375e4b4b368707f750e79c6cdd977caf556d02300049f2ca4c1f24",
+  "wif": 37,
+  "slip44": 1,
+  "aip20": 0,
+  "client": {
+    "token": "TACO",
+    "symbol": "🌮",
+    "explorer": "http://0.0.0.0:4200"
+  }
 }
