@@ -210,9 +210,9 @@ alias ark="$HOME/core-bridgechain/packages/core/bin/run"
 echo 'alias taco-chain="$HOME/core-bridgechain/packages/core/bin/run"' >> ~/.bashrc
 
 rm -rf "$HOME/core-bridgechain"
-git clone "git@github.com:arkdeployer/alex-core-tmp.git" "$HOME/core-bridgechain" || FAILED="Y"
+git clone "https://github.com/arkdeployer/alex-core-tmp.git" "$HOME/core-bridgechain" || FAILED="Y"
 if [ "$FAILED" == "Y" ]; then
-    echo "Failed to fetch core repo with origin 'git@github.com:arkdeployer/alex-core-tmp.git'"
+    echo "Failed to fetch core repo with origin 'https://github.com/arkdeployer/alex-core-tmp.git'"
 
     exit 1
 fi
